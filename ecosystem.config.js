@@ -3,7 +3,6 @@ module.exports = {
     {
       name: 'news-aggregator',
       script: 'src/index.js',
-      cwd: '/Users/pavelpaciorin/Desktop/news-aggregator',
       
       // Автоперезапуск
       autorestart: true,
