@@ -1,0 +1,22 @@
+{
+  "name": "news-aggregator",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test:rss": "node src/aggregator.js",
+    "test:rewrite": "node src/rewriter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1",
+    "rss-parser": "^3.13.0",
+    "telegraf": "^4.16.3"
+  }
+}
